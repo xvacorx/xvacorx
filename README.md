@@ -1,5 +1,58 @@
-## Hi there 👋
+# 👋 Hi, I'm Victor! (xvacorx)
 
+🎮 **Game Dev Student** | 🕹 Focused on Game Design & Programming
+
+---
+
+## 🚀 About Me
+
+Aspiring game designer and developer passionate about crafting immersive gameplay experiences. Currently studying game development with a strong focus on game design, while sharpening my programming skills. I love exploring new mechanics, prototyping ideas, and sharing my journey through code and creativity.
+
+---
+
+## 🛠️ Skills & Tools
+
+- **Game Engines:** Unity
+- **Programming Languages:** C#
+- **Project Management:** Notion, Trello
+- **Version Control:** GitHub
+
+---
+
+## 🌟 Featured Projects
+
+- [BulletHellProject](#) — Fast-paced bullet hell shooter
+- [BATman](#) — Unique bat-themed platformer
+- [DiceMentions](#) — Dice-based game mechanics experiment
+- [Toading Home](#) — Whimsical adventure about getting home
+
+*Check out more on my [Itch.io page](https://xvacorx.itch.io/)!*
+
+---
+
+## 🎲 Interests
+
+- Game Design theory & practice
+- Videogames of all genres
+- Coding, prototyping, and rapid iteration
+
+---
+
+## 🔗 Connect With Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Victor%20G%20Sanchez-blue?logo=linkedin)](https://www.linkedin.com/in/victor-g-sanchez/)
+[![Itch.io](https://img.shields.io/badge/Itch.io-xvacorx-red?logo=itchdotio)](https://xvacorx.itch.io/)
+
+---
+
+> “Games are the only force in the known universe that can get people to take actions against their own self-interest, in a predictable way, without using force.”  
+> — Jesse Schell
+
+---
+
+<!--
+✨ Always open to collaboration or feedback—just reach out!
+-->
 <!--
 **xvacorx/xvacorx** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
