@@ -21,10 +21,10 @@ Aspiring game designer and developer passionate about crafting immersive gamepla
 
 ## 🌟 Featured Projects
 
-- [BulletHellProject](#) — Fast-paced bullet hell shooter
-- [BATman](#) — Unique bat-themed platformer
-- [DiceMentions](#) — Dice-based game mechanics experiment
-- [Toading Home](#) — Whimsical adventure about getting home
+- [BulletHellProject](https://github.com/xvacorx/BulletHellProject) — Fast-paced bullet hell shooter
+- [BATman](https://github.com/xvacorx/BATman) — Unique bat-themed platformer
+- [DiceMentions](https://github.com/arzevastian/dicementions) — Dice-based game mechanics experiment
+- [Toading Home](https://xvacorx.itch.io/toadinghome) — Whimsical adventure about getting home
 
 *Check out more on my [Itch.io page](https://xvacorx.itch.io/)!*
 
