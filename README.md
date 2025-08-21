@@ -21,10 +21,10 @@ Aspiring game designer and developer passionate about crafting immersive gamepla
 
 ## 🌟 Featured Projects
 
-- [BulletHellProject](https://github.com/xvacorx/BulletHellProject) — Fast-paced bullet hell shooter
-- [BATman](https://github.com/xvacorx/BATman) — Unique bat-themed platformer
-- [DiceMentions](https://github.com/arzevastian/dicementions) — Dice-based game mechanics experiment
-- [Toading Home](https://xvacorx.itch.io/toadinghome) — Whimsical adventure about getting home
+- [Toading Home](https://xvacorx.itch.io/toadinghome) — Whimsical adventure about returning home
+- [Neon Shooter](https://xvacorx.itch.io/neon-shooter) — Fast-paced bullet hell shooter
+- [DiceMentions](https://xvacorx.itch.io/dicementions) — Dice-based game mechanics experiment
+- [Bubble Blowdown](https://marioldd.itch.io/bubbleblowdown) - A 2 Player battle about blowing bubbles
 
 *Check out more on my [Itch.io page](https://xvacorx.itch.io/)!*
 
