@@ -21,7 +21,7 @@ Aspiring game designer and developer passionate about crafting immersive gamepla
 
 ## 🌟 Featured Projects
 
-- [Toading Home](https://xvacorx.itch.io/toadinghome) — Whimsical adventure about returning home
+- [Toading Home](https://xvacorx.itch.io/toadinghome) — A toad adventure about returning home
 - [Neon Shooter](https://xvacorx.itch.io/neon-shooter) — Fast-paced bullet hell shooter
 - [DiceMentions](https://xvacorx.itch.io/dicementions) — Dice-based game mechanics experiment
 - [Bubble Blowdown](https://marioldd.itch.io/bubbleblowdown) - A 2 Player battle about blowing bubbles
