@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Viktor! (xvacorx)
+# 👋 Hi, I'm Viktor!
 
 🎮 **Game Dev Student** | 🕹 Focused on Game Design & Programming
 
