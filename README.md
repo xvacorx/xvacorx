@@ -41,28 +41,3 @@ Aspiring game designer and developer passionate about crafting immersive gamepla
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Victor%20G%20Sanchez-blue?logo=linkedin)](https://www.linkedin.com/in/victor-g-sanchez/)
 [![Itch.io](https://img.shields.io/badge/Itch.io-xvacorx-red?logo=itchdotio)](https://xvacorx.itch.io/)
-
----
-
-> “Games are the only force in the known universe that can get people to take actions against their own self-interest, in a predictable way, without using force.”  
-> — Jesse Schell
-
----
-
-<!--
-✨ Always open to collaboration or feedback—just reach out!
--->
-<!--
-**xvacorx/xvacorx** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
