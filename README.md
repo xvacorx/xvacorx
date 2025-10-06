@@ -20,7 +20,6 @@ Aspiring game designer and developer passionate about crafting immersive gamepla
 ---
 
 ## 🌟 Featured Projects
-<iframe frameborder="0" src="https://itch.io/embed/3710729?linkback=true&amp;bg_color=222222&amp;fg_color=eeeeee&amp;border_color=363636" width="208" height="167"><a href="https://xvacorx.itch.io/toadinghome">Toading Home by Viktor!, Ceschix, Nierun</a></iframe>
 - [Toading Home](https://xvacorx.itch.io/toadinghome) — A toad adventure about returning home
 - [Neon Shooter](https://xvacorx.itch.io/neon-shooter) — Fast-paced bullet hell shooter
 - [DiceMentions](https://xvacorx.itch.io/dicementions) — Dice-based game mechanics experiment
