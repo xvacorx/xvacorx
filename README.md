@@ -14,7 +14,7 @@ Aspiring game designer and developer passionate about crafting immersive gamepla
 
 - **Game Engines:** Unity
 - **Programming Languages:** C#
-- **Project Management:** Notion, Trello
+- **Project Management:** Obsidian, Notion, Trello, Google suite
 - **Version Control:** GitHub
 
 ---
