@@ -1,139 +1,63 @@
-# 🦇 BATman: Your Command Line Utility Belt for Windows
+# 👋 Hi, I'm Vik! / ¡Hola, soy Vik!
 
 <div align="center">
-  <h3>
-    <a href="#english">🇺🇸 English</a> | <a href="#español">🇪🇸 Español</a>
-  </h3>
+  <img src="https://img.shields.io/badge/Language-%F0%9F%87%BA%F0%9F%87%B8%20English-blue?style=for-the-badge" href="#english"> 
+  <img src="https://img.shields.io/badge/Idioma-%F0%9F%87%B3%F0%9F%87%B5%20Espa%C3%B1ol-red?style=for-the-badge" href="#español">
 </div>
 
-<details open>
-<summary id="english"><b>🇺🇸 Click to view English version</b></summary>
-
-# 👋 Hi, I'm Vik!
-
-🎮 **Game Developer & Designer** | 💻 **Field Support Analyst & IT Enthusiast**
-
 ---
 
-## 🚀 About Me
+<h2 id="english">🇺🇸 English Version</h2>
 
-I am a game designer and developer passionate about crafting immersive gameplay experiences. I'm currently running my solo indie adventure, **Chroma Cat Studios**, where I focus on game design theory, rapid iteration, and prototyping exciting mechanics for projects like *Toading Home*.
+**Game Developer & Designer** | **Field Support Analyst & IT Enthusiast**
 
-By day, I merge my programming logic with system administration. As a **Field Support Analyst**, I dive deep into IT infrastructure, building automation tools, writing PowerShell scripts, and experimenting with my **Proxmox home lab** and **Raspberry Pi** setups. Whether I'm configuring my custom AI assistant **Claw Bot** or designing board game rules, I love solving complex problems with creativity.
+### 🚀 About Me
+I am a game designer and developer passionate about crafting immersive gameplay experiences. I'm currently running my solo indie adventure, **Chroma Cat Studios**, focusing on game design theory and prototyping mechanics for projects like *Toading Home*.
 
----
+By day, I work as a **Field Support Analyst** at **Conectica**, diving deep into IT infrastructure, building automation tools, and experimenting with my **Proxmox home lab** and **Raspberry Pi** setups. Whether I'm configuring my custom AI assistant **Claw Bot** or designing board game rules, I love solving complex problems.
 
-## 🛠️ My Flagship IT Tool: Toolbox Tecnico Pro
-
-I built a bulletproof, multi-OS command-line utility belt for Windows SysAdmins and Field Techs. It features zero-touch maintenance, bloatware removal, and smart diagnostics. 
-
-Run it directly from an elevated PowerShell terminal:
+### 🛠️ Flagship IT Tool: Toolbox Tecnico Pro
+A multi-OS command-line utility belt for Windows. Run it directly:
 
 ```powershell
 iex (irm tinyurl.com/VikToolBox)
 ```
 
-*(Check out my [BATman Repository](https://github.com/xvacorx/BATman) for the portable `.bat` version and more tools!)*
+### ⚙️ Skills & Tools
+- **Dev:** Unity, C#, Game Design Theory
+- **IT:** PowerShell, Proxmox, Raspberry Pi, Networking
 
 ---
 
-## ⚙️ Skills & Tools
+<h2 id="español">🇪🇸 Versión en Español</h2>
 
-- **Game Development:** Unity, C#, Game Design Theory
-- **IT & Infrastructure:** PowerShell Automation, Proxmox (Virtualization), Raspberry Pi (Home Automation), Hardware Diagnostics, Networking
-- **Project Management:** Obsidian, Notion, Trello, Google Suite
-- **Version Control:** GitHub
+**Desarrollador y Diseñador de Videojuegos** | **Analista de Soporte Técnico**
+
+### 🚀 Sobre Mí
+Soy un diseñador y desarrollador de videojuegos apasionado por crear experiencias inmersivas. Lidero mi proyecto indie unipersonal, **Chroma Cat Studios**, donde me enfoco en la teoría del diseño y prototipado para proyectos como *Toading Home*.
+
+En mi faceta técnica, trabajo como **Analista de Soporte** en **Conectica**, especializándome en infraestructura IT, automatización con PowerShell y experimentando en mi **Home Lab con Proxmox** y sistemas con **Raspberry Pi**. Ya sea configurando a **Claw Bot** o diseñando reglamentos de juegos de mesa, disfruto resolver problemas complejos con creatividad.
+
+### 🛠️ Herramienta Insignia: Toolbox Técnico Pro
+Navaja suiza para Windows. Ejecutala directamente:
+
+```powershell
+iex (irm tinyurl.com/VikToolBox)
+```
 
 ---
 
-## 🌟 Featured Projects
+## 🌟 Featured Projects / Proyectos Destacados
 
-- [Toading Home](https://xvacorx.itch.io/toadinghome) — A mobile arcade-style toad adventure about returning home (In dev at Chroma Cat Studios).
-- [Neon Shooter](https://xvacorx.itch.io/neon-shooter) — Fast-paced bullet hell shooter.
-- [DiceMentions](https://xvacorx.itch.io/dicementions) — Created for the Game Lab organized by Rosario Game Devs.
-- [Bubble Blowdown](https://marioldd.itch.io/bubbleblowdown) - A 2-Player battle about blowing bubbles.
+- [Toading Home](https://xvacorx.itch.io/toadinghome) — Mobile arcade adventure (Chroma Cat Studios).
+- [Neon Shooter](https://xvacorx.itch.io/neon-shooter) — Fast-paced bullet hell.
+- [DiceMentions](https://xvacorx.itch.io/dicementions) — Created for the Game Lab by Rosario Game Devs.
 
----
-
-## 🎲 Interests & Hobbies
-
-- **Aesthetics:** Cyberpunk, Synthwave, Solarpunk, and Steampunk.
-- **Tech Art:** Projection mapping and VJing.
-- **Tabletop:** Huge fan of board games and card games (Secret Hitler, Exploding Kittens, Uno, etc.).
+## 🎲 Hobbies
+- **Aesthetics:** Cyberpunk, Synthwave, Solarpunk.
+- **Tabletop:** Big fan of Secret Hitler, Exploding Kittens, and board game rules design.
 - **Animals:** Red pandas, foxes, and black cats!
 
----
-
-## 🔗 Connect With Me
-
+## 🔗 Connect / Contacto
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Victor%20G%20Sanchez-blue?logo=linkedin)](https://www.linkedin.com/in/victor-g-sanchez/)
 [![Itch.io](https://img.shields.io/badge/Itch.io-xvacorx-red?logo=itchdotio)](https://xvacorx.itch.io/)
-
-</details>
-
-<br>
-
-<details>
-<summary id="español"><b>🇪🇸 Haz clic para ver la versión en Español</b></summary>
-
-# 👋 ¡Hola, soy Vik!
-
-🎮 **Desarrollador y Diseñador de Videojuegos** | 💻 **Analista de Soporte Técnico y Entusiasta IT**
-
----
-
-## 🚀 Sobre Mí
-
-Soy un diseñador y desarrollador de videojuegos apasionado por crear experiencias inmersivas. Actualmente lidero mi proyecto indie unipersonal, **Chroma Cat Studios**, donde me enfoco en la teoría del diseño, iteración rápida y prototipado de mecánicas para proyectos como *Toading Home*.
-
-En mi faceta técnica, fusiono la lógica de programación con la administración de sistemas. Como **Analista de Soporte Técnico de Campo**, me especializo en infraestructura IT, creando herramientas de automatización, scripts en PowerShell y experimentando en mi **Home Lab con Proxmox** y sistemas con **Raspberry Pi**. Ya sea configurando a **Claw Bot** (mi asistente de IA personalizado) o diseñando reglamentos para bibliotecas de juegos de mesa, me encanta resolver problemas complejos con creatividad.
-
----
-
-## 🛠️ Mi Herramienta Insignia: Toolbox Técnico Pro
-
-Desarrollé una "navaja suiza" para la línea de comandos, blindada y compatible con múltiples versiones de Windows. Ideal para SysAdmins y técnicos de soporte, incluye mantenimiento automatizado, eliminación de bloatware y diagnósticos inteligentes.
-
-Ejecútala directamente desde una terminal de PowerShell (como Administrador):
-
-```powershell
-iex (irm tinyurl.com/VikToolBox)
-```
-
-*(¡Visita mi [Repositorio BATman](https://github.com/xvacorx/BATman) para descargar la versión portable `.bat` y ver más herramientas!)*
-
----
-
-## ⚙️ Habilidades y Herramientas
-
-- **Desarrollo de Juegos:** Unity, C#, Teoría del Diseño de Juegos
-- **IT e Infraestructura:** Automatización con PowerShell, Proxmox (Virtualización), Raspberry Pi (Domótica), Diagnóstico de Hardware, Redes
-- **Gestión de Proyectos:** Obsidian, Notion, Trello, Google Suite
-- **Control de Versiones:** GitHub
-
----
-
-## 🌟 Proyectos Destacados
-
-- [Toading Home](https://xvacorx.itch.io/toadinghome) — Una aventura arcade para móviles sobre un sapito que intenta volver a casa (En desarrollo en Chroma Cat Studios).
-- [Neon Shooter](https://xvacorx.itch.io/neon-shooter) — Un shooter frenético de estilo "bullet hell".
-- [DiceMentions](https://xvacorx.itch.io/dicementions) — Experimento de mecánicas con dados (Creado para el Game Lab de Rosario Game Devs).
-- [Bubble Blowdown](https://marioldd.itch.io/bubbleblowdown) - Una batalla de burbujas para 2 jugadores.
-
----
-
-## 🎲 Intereses y Hobbies
-
-- **Estéticas:** Cyberpunk, Synthwave, Solarpunk y Steampunk.
-- **Arte Técnico:** Projection mapping y VJing.
-- **Juegos de Mesa:** Fanático de los juegos de mesa y de cartas (Secret Hitler, Exploding Kittens, Uno, etc.).
-- **Animales:** Pandas rojos, zorros y gatos negros.
-
----
-
-## 🔗 Contacto
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Victor%20G%20Sanchez-blue?logo=linkedin)](https://www.linkedin.com/in/victor-g-sanchez/)
-[![Itch.io](https://img.shields.io/badge/Itch.io-xvacorx-red?logo=itchdotio)](https://xvacorx.itch.io/)
-
-</details>
