@@ -22,9 +22,9 @@ I built a bulletproof, multi-OS command-line utility belt for Windows SysAdmins 
 
 Run it directly from an elevated PowerShell terminal:
 
-**[PONER 3 COMILLAS INVERTIDAS Y LA PALABRA powershell AQUÍ]**
+```powershell
 iex (irm tinyurl.com/VikToolBox)
-**[PONER 3 COMILLAS INVERTIDAS AQUÍ]**
+```
 
 *(Check out my [BATman Repository](https://github.com/xvacorx/BATman) for the portable `.bat` version and more tools!)*
 
