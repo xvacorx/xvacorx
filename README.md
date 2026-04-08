@@ -70,7 +70,7 @@ iex (irm tinyurl.com/VikToolBox)
 
 <br>
 
-<details>
+<details open>
 <summary id="español"><b>🇪🇸 Haz clic para ver la versión en Español</b></summary>
 
 # 👋 ¡Hola, soy Vik!
