@@ -58,7 +58,7 @@ iex (irm tinyurl.com/VikToolBox)
 
 ## 🔗 Connect With Me
 
-[](https://www.google.com/search?q=%5Bhttps://www.linkedin.com/in/victor-g-sanchez/%5D\(https://www.linkedin.com/in/victor-g-sanchez/\))
-[](https://xvacorx.itch.io/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Victor%20G%20Sanchez-blue?logo=linkedin)](https://www.linkedin.com/in/victor-g-sanchez/)
+[![Itch.io](https://img.shields.io/badge/Itch.io-xvacorx-red?logo=itchdotio)](https://xvacorx.itch.io/)
 
 -----
