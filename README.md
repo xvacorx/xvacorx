@@ -1,3 +1,12 @@
+<div align="center">
+  <h3>
+    <a href="#english">🇺🇸 English</a> | <a href="#español">🇪🇸 Español</a>
+  </h3>
+</div>
+
+<details open>
+<summary id="english"><b>🇺🇸 Click to view English version</b></summary>
+
 # 👋 Hi, I'm Vik!
 
 🎮 **Game Developer & Designer** | 💻 **Field Support Analyst & IT Enthusiast**
