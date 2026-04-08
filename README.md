@@ -91,7 +91,7 @@ En mi faceta técnica, fusiono la lógica de programación con la administració
 
 Desarrollé una "navaja suiza" para la línea de comandos, blindada y compatible con múltiples versiones de Windows. Ideal para SysAdmins y técnicos de soporte, incluye mantenimiento automatizado, eliminación de bloatware y diagnósticos inteligentes.
 
-Ejecútala directamente desde una terminal de PowerShell (como Administrador):
+Ejecútala directamente desde una terminal de PowerShell:
 
 ```powershell
 iex (irm tinyurl.com/VikToolBox)
