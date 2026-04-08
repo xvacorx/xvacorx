@@ -22,9 +22,9 @@ Desarrollé una "navaja suiza" para la línea de comandos, blindada y compatible
 
 Ejecútala directamente desde una terminal de PowerShell (como Administrador):
 
-**[PONER 3 COMILLAS INVERTIDAS Y LA PALABRA powershell AQUÍ]**
+```powershell
 iex (irm tinyurl.com/VikToolBox)
-**[PONER 3 COMILLAS INVERTIDAS AQUÍ]**
+```
 
 *(¡Visita mi [Repositorio BATman](https://github.com/xvacorx/BATman) para descargar la versión portable `.bat` y ver más herramientas!)*
 
