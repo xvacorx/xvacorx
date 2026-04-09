@@ -28,7 +28,7 @@ I built a bulletproof, multi-OS command-line utility belt for Windows SysAdmins 
 Run it directly from an elevated PowerShell terminal:
 
 ```powershell
-iex (irm tinyurl.com/VikToolBox)
+irm tinyurl.com/VikToolBox | iex
 ```
 
 *(Check out my [BATman Repository](https://github.com/xvacorx/BATman) for the portable `.bat` version and more tools!)*
@@ -94,7 +94,7 @@ Desarrollé una "navaja suiza" para la línea de comandos, blindada y compatible
 Ejecútala directamente desde una terminal de PowerShell:
 
 ```powershell
-iex (irm tinyurl.com/VikToolBox)
+irm tinyurl.com/VikToolBox | iex
 ```
 
 *(¡Visita mi [Repositorio BATman](https://github.com/xvacorx/BATman) para descargar la versión portable `.bat` y ver más herramientas!)*
