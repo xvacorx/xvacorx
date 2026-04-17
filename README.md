@@ -30,6 +30,7 @@ Run it directly from an elevated PowerShell terminal:
 ```powershell
 irm tinyurl.com/VikToolBox | iex
 ```
+Or [Download Offline Version (Toolbox.exe)](https://downgit.github.io/#/home?url=https://github.com/xvacorx/BATman/blob/main/Toolbox/Toolbox.exe)
 
 *(Check out my [BATman Repository](https://github.com/xvacorx/BATman) for the portable `.bat` version and more tools!)*
 
