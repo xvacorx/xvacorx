@@ -109,7 +109,7 @@ irm tinyurl.com/VikToolBox | iex
 
 ---
 
-## 🌟 Proyectos Destacados
+## 🌟 Proyectos de Videojuegos Destacados
 
 - [Toading Home](https://xvacorx.itch.io/toadinghome) — Una aventura arcade para móviles sobre un sapito que intenta volver a casa (En desarrollo en Chroma Cat Studios).
 - [Neon Shooter](https://xvacorx.itch.io/neon-shooter) — Un shooter frenético de estilo "bullet hell".
