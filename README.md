@@ -43,7 +43,7 @@ Or [Download Offline Version (Toolbox.exe)](https://downgit.github.io/#/home?url
 
 ---
 
-## 🌟 Featured Projects
+## 🌟 Featured Game Projects
 
 - [Toading Home](https://xvacorx.itch.io/toadinghome) — A mobile arcade-style toad adventure about returning home (In dev at Chroma Cat Studios).
 - [Neon Shooter](https://xvacorx.itch.io/neon-shooter) — Fast-paced bullet hell shooter.
