@@ -235,14 +235,14 @@
   <g class="ascii-text" xml:space="preserve" filter="url(#ascii-glow)">
     <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="6s" repeatCount="indefinite" />
     
-    <text x="70" y="210" opacity="0">      /\_/\<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.8s" fill="freeze" /></text>
-    <text x="70" y="230" opacity="0"> ____/ o o \____<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.9s" fill="freeze" /></text>
-    <text x="70" y="250" opacity="0">/~    \  V  /    ~\<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="2.0s" fill="freeze" /></text>
-    <text x="70" y="270" opacity="0">(   ===  ^  ===   )<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="2.1s" fill="freeze" /></text>
-    <text x="70" y="290" opacity="0"> \               /<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="2.2s" fill="freeze" /></text>
-    <text x="70" y="310" opacity="0">  \  C H R O M A /<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="2.3s" fill="freeze" /></text>
-    <text x="70" y="330" opacity="0">   \   C A T S  /<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="2.4s" fill="freeze" /></text>
-    <text x="70" y="350" opacity="0">    \__________/<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="2.5s" fill="freeze" /></text>
+    <text x="130" y="210" opacity="0">&#160;&#160;&#160;&#160;&#160;&#160;/\_/\&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.8s" fill="freeze" /></text>
+    <text x="130" y="230" opacity="0">&#160;____/&#160;o&#160;o&#160;\____&#160;&#160;<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.9s" fill="freeze" /></text>
+    <text x="130" y="250" opacity="0">/~&#160;&#160;&#160;&#160;\&#160;&#160;V&#160;&#160;/&#160;&#160;&#160;&#160;~\<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="2.0s" fill="freeze" /></text>
+    <text x="130" y="270" opacity="0">(&#160;&#160;&#160;===&#160;&#160;^&#160;&#160;===&#160;&#160;&#160;)<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="2.1s" fill="freeze" /></text>
+    <text x="130" y="290" opacity="0">&#160;\&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/&#160;<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="2.2s" fill="freeze" /></text>
+    <text x="130" y="310" opacity="0">&#160;&#160;\&#160;CHROMA&#160;&#160;CAT&#160;/&#160;&#160;<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="2.3s" fill="freeze" /></text>
+    <text x="130" y="330" opacity="0">&#160;&#160;&#160;\&#160;&#160;&#160;STUDIO&#160;&#160;/&#160;&#160;&#160;<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="2.4s" fill="freeze" /></text>
+    <text x="130" y="350" opacity="0">&#160;&#160;&#160;&#160;\_________/&#160;&#160;&#160;&#160;<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="2.5s" fill="freeze" /></text>
   </g>
 
   <!-- Left Terminal Specs -->
@@ -252,7 +252,7 @@
     <text x="70" y="430" opacity="0"><tspan fill="#22D3EE" font-weight="600">SHELL  </tspan> PowerShell Core 7.4<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="3.0s" fill="freeze" /></text>
     <text x="70" y="455" opacity="0"><tspan fill="#10B981" font-weight="600">SYS    </tspan> ToolboxTecnicoPro<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="3.2s" fill="freeze" /></text>
     <text x="70" y="480" opacity="0"><tspan fill="#F59E0B" font-weight="600">AI     </tspan> Claw-Bot-v2 (Online)<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="3.4s" fill="freeze" /></text>
-    <text x="70" y="505" opacity="0"><tspan fill="#EC4899" font-weight="600">LOC    </tspan> Rosario, Argentina<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="3.6s" fill="freeze" /></text>
+    <text x="70" y="505" opacity="0"><tspan fill="#EC4899" font-weight="600">LOC    </tspan> Argentina<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="3.6s" fill="freeze" /></text>
   </g>
 
   <!-- Scanline Sweep Animation -->
@@ -325,7 +325,8 @@
     </g>
     <text x="550" y="217" font-family="'Inter', sans-serif" font-size="13.5">
       <tspan fill="#94A3B8">Location: </tspan>
-      <tspan fill="#F8FAFC" font-weight="600">Rosario, Argentina</tspan>
+      <tspan fill="#F8FAFC" font-weight="600">Argentina</tspan>
+
     </text>
   </g>
 
