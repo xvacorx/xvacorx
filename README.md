@@ -58,7 +58,7 @@ irm tinyurl.com/VikToolBox | iex
 Game Development:
   - Unity Engine
   - C# Scripting
-  - Game Design Theory
+  - Game Design
 IT & Systems:
   - PowerShell Automation
   - Proxmox Virtualization
@@ -92,7 +92,6 @@ Productivity & Org:
 ## 🔗 COOP MODE: Connect & Party Up
 
 ```bash
-- Discord Connection: Active (Claw Bot Assistant)
 - LinkedIn Network: Link (https://www.linkedin.com/in/victor-g-sanchez/)
 - Itch.io Studio Portal: Link (https://xvacorx.itch.io/)
 - GitHub Repository Logs: Link (https://github.com/xvacorx)
@@ -140,7 +139,7 @@ irm tinyurl.com/VikToolBox | iex
 Desarrollo de Videojuegos:
   - Unity Engine
   - Lenguaje C#
-  - Teoría de Diseño de Juegos
+  - Diseño de Juegos
 IT y Sistemas:
   - Automatización con PowerShell
   - Virtualización con Proxmox
@@ -174,7 +173,6 @@ Productividad y Organización:
 ## 🔗 MODO COOPERATIVO: Contacto & Conectarse
 
 ```bash
-- Conexión Discord: Activa (Asistente Claw Bot)
 - Red LinkedIn: Enlace (https://www.linkedin.com/in/victor-g-sanchez/)
 - Portal Itch.io: Enlace (https://xvacorx.itch.io/)
 - Registro de GitHub: Enlace (https://github.com/xvacorx)
