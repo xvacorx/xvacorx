@@ -231,14 +231,14 @@
   <g class="ascii-text" xml:space="preserve" filter="url(#ascii-glow)">
     <animateTransform attributeName="transform" type="translate" values="0,0; 0,-5; 0,0" dur="5s" repeatCount="indefinite" />
     
-    <text x="110" y="180" opacity="0">&#160;&#160;&#160;&#160;&#160;.__________________.&#160;&#160;&#160;&#160;&#160;<animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="1.4s" fill="freeze" /></text>
+    <text x="110" y="180" opacity="0">&#160;&#160;&#160;&#160;.__________________.&#160;&#160;&#160;&#160;<animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="1.4s" fill="freeze" /></text>
     <text x="110" y="198" opacity="0">&#160;&#160;&#160;/&#160;&#160;__&#160;&#160;&#160;__&#160;&#160;&#160;__&#160;&#160;&#160;__&#160;\&#160;&#160;&#160;<animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="1.5s" fill="freeze" /></text>
     <text x="110" y="216" opacity="0">&#160;&#160;/&#160;&#160;/&#160;&#160;|&#160;/&#160;&#160;|&#160;/&#160;&#160;|&#160;/&#160;&#160;|&#160;\&#160;&#160;<animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="1.6s" fill="freeze" /></text>
     <text x="110" y="234" opacity="0">&#160;|&#160;&#160;|___|/___|/___|/___|&#160;&#160;|&#160;<animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="1.7s" fill="freeze" /></text>
     <text x="110" y="252" opacity="0">&#160;|&#160;&#160;&#160;__________________&#160;&#160;&#160;|&#160;<animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="1.8s" fill="freeze" /></text>
     <text x="110" y="270" opacity="0">&#160;|&#160;&#160;|&#160;&#160;&#160;/\_/\&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|&#160;&#160;|&#160;<animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="1.9s" fill="freeze" /></text>
     <text x="110" y="288" opacity="0">&#160;|&#160;&#160;|&#160;&#160;(&#160;o.o&#160;)&#160;&#160;CHROMA&#160;|&#160;&#160;|&#160;<animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="2.0s" fill="freeze" /></text>
-    <text x="110" y="306" opacity="0">&#160;|&#160;&#160;|&#160;&#160;&#160;&gt;&#160;^&#160;&lt;&#160;&#160;&#160;&#160;STUDIO&#160;|&#160;&#160;|&#160;<animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="2.1s" fill="freeze" /></text>
+    <text x="110" y="306" opacity="0">&#160;|&#160;&#160;|&#160;&#160;&#160;&gt;&#160;^&#160;&lt;&#160;&#160;&#160;CAT&#160;&#160;&#160;&#160;|&#160;&#160;|&#160;<animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="2.1s" fill="freeze" /></text>
     <text x="110" y="324" opacity="0">&#160;|&#160;&#160;|__________________|&#160;&#160;|&#160;<animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="2.2s" fill="freeze" /></text>
     <text x="110" y="342" opacity="0">&#160;|&#160;&#160;&#160;__________________&#160;&#160;&#160;|&#160;<animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="2.3s" fill="freeze" /></text>
     <text x="110" y="360" opacity="0">&#160;|&#160;&#160;/&#160;&#160;O&#160;&#160;&#160;O&#160;&#160;&#160;O&#160;&#160;&#160;O&#160;&#160;&#160;\&#160;&#160;|&#160;<animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="2.4s" fill="freeze" /></text>

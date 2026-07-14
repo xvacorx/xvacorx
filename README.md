@@ -30,7 +30,7 @@
 
 ## 🎮 LEVEL 1: Vik's Profile Status
 
-I am a game designer and developer passionate about crafting immersive gameplay experiences. I'm currently running my solo indie adventure, **[Chroma Cat Studios](https://xvacorx.itch.io/)**, where I focus on game design theory, rapid iteration, and prototyping exciting mechanics for projects like *[Toading Home](https://xvacorx.itch.io/toadinghome)*.
+I am a game designer and developer passionate about crafting immersive gameplay experiences. I'm currently running my indie adventure, **[Chroma Cat Studios](https://xvacorx.itch.io/)**, where I focus on game design, rapid iteration, and prototyping exciting mechanics for projects like *[Toading Home](https://xvacorx.itch.io/toadinghome)*.
 
 By day, I merge my programming logic with system administration. As a **Field Support Analyst**, I dive deep into IT infrastructure, building automation tools, writing PowerShell scripts, and experimenting with my **Proxmox home lab** and **Raspberry Pi** setups. Whether I'm configuring my custom AI assistant **Claw Bot** or designing board game rules, I love solving complex problems with creativity.
 
@@ -59,6 +59,8 @@ Game Development:
   - Unity Engine
   - C# Scripting
   - Game Design
+  - Gameplay Prototyping
+  - Level Design
 IT & Systems:
   - PowerShell Automation
   - Proxmox Virtualization
@@ -74,10 +76,11 @@ Productivity & Org:
 
 ## 🌟 QUEST REWARDS: Featured Projects
 
-*   🎮 **[Toading Home](https://xvacorx.itch.io/toadinghome)** — A mobile arcade-style toad adventure about returning home (In dev at Chroma Cat Studios).
+*   🐸 **[Toading Home](https://xvacorx.itch.io/toadinghome)** — A mobile arcade platformer starring a toad on a quest to return home. Developed at Chroma Cat Studios, focusing on rapid iteration and tactile gameplay mechanics.
+*   🎲 **[Hexlinger](https://github.com/xvacorx/HexLinger)** — A tactical turn-based strategy game built in Unity 6. Features axial hexagon navigation, modular action points, sonic radar wave alerts, and decoupled entity design.
+*   🫧 **[Bubble Blowdown](https://marioldd.itch.io/bubbleblowdown)** — A competitive local 2-player arcade bubble-blowing battle game.
 *   🚀 **[Neon Shooter](https://xvacorx.itch.io/neon-shooter)** — Fast-paced bullet hell shooter.
-*   🎲 **[DiceMentions](https://xvacorx.itch.io/dicementions)** — Dice mechanic experiment created for the Game Lab organized by Rosario Game Devs.
-*   🫧 **[Bubble Blowdown](https://marioldd.itch.io/bubbleblowdown)** — A competitive 2-player bubble-blowing battle game.
+*   🎲 **[DiceMentions](https://xvacorx.itch.io/dicementions)** — Created for the Game Lab organized by Rosario Game Devs.
 
 ---
 
@@ -111,7 +114,7 @@ Productivity & Org:
 
 ## 🎮 NIVEL 1: Estado del Perfil de Vik
 
-Soy un diseñador y desarrollador de videojuegos apasionado por crear experiencias inmersivas. Actualmente lidero mi proyecto indie unipersonal, **[Chroma Cat Studios](https://xvacorx.itch.io/)**, donde me enfoco en la teoría del diseño, iteración rápida y prototipado de mecánicas para proyectos como *[Toading Home](https://xvacorx.itch.io/toadinghome)*.
+Soy un diseñador y desarrollador de videojuegos apasionado por crear experiencias inmersivas. Actualmente lidero mi proyecto indie, **[Chroma Cat Studios](https://xvacorx.itch.io/)**, donde me enfoco en el diseño de juegos, iteración rápida y prototipado de mecánicas para proyectos como *[Toading Home](https://xvacorx.itch.io/toadinghome)*.
 
 En mi faceta técnica, fusiono la lógica de programación con la administración de sistemas. Como **Analista de Soporte Técnico de Campo**, me especializo en infraestructura IT, creando herramientas de automatización, scripts en PowerShell y experimentando en mi **Home Lab con Proxmox** y sistemas con **Raspberry Pi**. Ya sea configurando a **Claw Bot** (mi asistente de IA personalizado) o diseñando reglamentos para bibliotecas de juegos de mesa, me encanta resolver problemas complejos con creatividad.
 
@@ -140,6 +143,8 @@ Desarrollo de Videojuegos:
   - Unity Engine
   - Lenguaje C#
   - Diseño de Juegos
+  - Prototipado de Gameplay
+  - Diseño de Niveles
 IT y Sistemas:
   - Automatización con PowerShell
   - Virtualización con Proxmox
@@ -155,10 +160,11 @@ Productividad y Organización:
 
 ## 🌟 RECOMPENSAS DE MISIÓN: Proyectos Destacados
 
-*   🎮 **[Toading Home](https://xvacorx.itch.io/toadinghome)** — Una aventura arcade para móviles sobre un sapito que intenta volver a casa (En desarrollo en Chroma Cat Studios).
+*   🐸 **[Toading Home](https://xvacorx.itch.io/toadinghome)** — Una aventura arcade para móviles sobre un sapito que intenta volver a casa. Desarrollado en Chroma Cat Studios, enfocado en iteración rápida y mecánicas responsivas.
+*   🎲 **[Hexlinger](https://github.com/xvacorx/HexLinger)** — Un videojuego de táctica y estrategia por turnos en Unity 6. Contiene grilla hexagonal axial, puntos de acción, ondas de sonido radiales y arquitectura modular basada en interfaces.
+*   🫧 **[Bubble Blowdown](https://marioldd.itch.io/bubbleblowdown)** — Juego de arcade de duelo para 2 jugadores competitivos en local.
 *   🚀 **[Neon Shooter](https://xvacorx.itch.io/neon-shooter)** — Un shooter frenético de estilo "bullet hell".
-*   🎲 **[DiceMentions](https://xvacorx.itch.io/dicementions)** — Experimento de mecánicas con dados creado para el Game Lab de Rosario Game Devs.
-*   🫧 **[Bubble Blowdown](https://marioldd.itch.io/bubbleblowdown)** — Una batalla de burbujas para 2 jugadores.
+*   🎲 **[DiceMentions](https://xvacorx.itch.io/diceMentions)** — Experimento de mecánicas con dados (Creado para el Game Lab de Rosario Game Devs).
 
 ---
 
