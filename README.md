@@ -3,21 +3,21 @@
   To display these banners on your GitHub profile:
   1. Upload "hero_dark.svg" and "hero_light.svg" to your GitHub profile repository (xvacorx/xvacorx).
   2. If you upload them to the root directory, leave the paths in the <picture> tag as is.
-     If you upload them inside a folder (e.g. "Extras"), update the paths in the tag to:
-     srcset="Extras/hero_dark.svg", srcset="Extras/hero_light.svg", and src="Extras/hero_dark.svg".
+     If you upload them inside a folder (e.g. "gamedev_version"), update the paths in the tag to:
+     srcset="gamedev_version/hero_dark.svg", srcset="gamedev_version/hero_light.svg", and src="gamedev_version/hero_dark.svg".
 -->
 
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="hero_dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="hero_light.svg">
-    <img alt="Vik - Game Dev & SysAdmin Profile Banner" src="hero_dark.svg" width="100%">
+    <img alt="Vik - Game Dev Profile Banner" src="hero_dark.svg" width="100%">
   </picture>
 
   <br><br>
   
   <h3>
-    <code>$ select-language --options</code><br>
+    <code>[ SELECT PROFILE MODE ]</code><br>
     <a href="#english">🇺🇸 English</a> | <a href="#español">🇪🇸 Español</a>
   </h3>
 </div>
@@ -25,10 +25,10 @@
 ---
 
 <details open>
-<summary id="english"><b>📂 us-English/intro.log</b></summary>
+<summary id="english"><b>📂 us-English/game_mode.sav</b></summary>
 <br>
 
-## 📁 sysadmin@vik-desktop:~$ cat about_me.md
+## 🎮 LEVEL 1: Vik's Profile Status
 
 I am a game designer and developer passionate about crafting immersive gameplay experiences. I'm currently running my solo indie adventure, **[Chroma Cat Studios](https://xvacorx.itch.io/)**, where I focus on game design theory, rapid iteration, and prototyping exciting mechanics for projects like *[Toading Home](https://xvacorx.itch.io/toadinghome)*.
 
@@ -36,14 +36,14 @@ By day, I merge my programming logic with system administration. As a **Field Su
 
 ---
 
-## 🛠️ sysadmin@vik-desktop:~$ ./toolbox_tecnico_pro.sh
+## ⚔️ QUEST LOG: Toolbox Tecnico Pro
 
 I built a bulletproof, multi-OS command-line utility belt for Windows SysAdmins and Field Techs. It features zero-touch maintenance, bloatware removal, and smart diagnostics. 
 
 Run it directly from an elevated PowerShell terminal:
 
 ```powershell
-# Execute technical toolbox
+# Run the toolbox utility belt
 irm tinyurl.com/VikToolBox | iex
 ```
 
@@ -52,20 +52,27 @@ irm tinyurl.com/VikToolBox | iex
 
 ---
 
-## ⚙️ sysadmin@vik-desktop:~$ get-skills --detailed
+## 🎒 INVENTORY: Core Skills & Tools
 
-```json
-{
-  "game_development": ["Unity", "C#", "Game Design"],
-  "it_infrastructure": ["PowerShell Automation", "Proxmox Virtualization", "Raspberry Pi", "Hardware Diagnostics", "Networking"],
-  "project_management": ["Obsidian", "Notion", "Trello", "Google Suite"],
-  "version_control": ["GitHub"]
-}
+```yaml
+Game Development:
+  - Unity Engine
+  - C# Scripting
+  - Game Design Theory
+IT & Systems:
+  - PowerShell Automation
+  - Proxmox Virtualization
+  - Raspberry Pi Home Lab
+  - Network & Diagnostics
+Productivity & Org:
+  - Obsidian (Personal Wiki)
+  - Notion & Trello
+  - GitHub (Version Control)
 ```
 
 ---
 
-## 🌟 sysadmin@vik-desktop:~$ list-projects --featured
+## 🌟 QUEST REWARDS: Featured Projects
 
 *   🎮 **[Toading Home](https://xvacorx.itch.io/toadinghome)** — A mobile arcade-style toad adventure about returning home (In dev at Chroma Cat Studios).
 *   🚀 **[Neon Shooter](https://xvacorx.itch.io/neon-shooter)** — Fast-paced bullet hell shooter.
@@ -74,7 +81,7 @@ irm tinyurl.com/VikToolBox | iex
 
 ---
 
-## 🎲 sysadmin@vik-desktop:~$ cat hobbies.log
+## 🎲 SIDE QUESTS: Hobbies & Interests
 
 *   **Aesthetics:** Cyberpunk, Synthwave, Solarpunk, and Steampunk.
 *   **Tabletop:** Huge fan of board games and card games.
@@ -82,13 +89,13 @@ irm tinyurl.com/VikToolBox | iex
 
 ---
 
-## 🔗 sysadmin@vik-desktop:~$ ping -c 4 contact_info
+## 🔗 COOP MODE: Connect & Party Up
 
 ```bash
-PING contact_info (127.0.0.1) 56(84) bytes of data.
-64 bytes from linkedin: icmp_seq=1 ttl=64 time=0.04 ms (https://www.linkedin.com/in/victor-g-sanchez/)
-64 bytes from itch_io: icmp_seq=2 ttl=64 time=0.08 ms (https://xvacorx.itch.io/)
-64 bytes from github: icmp_seq=3 ttl=64 time=0.12 ms (https://github.com/xvacorx)
+- Discord Connection: Active (Claw Bot Assistant)
+- LinkedIn Network: Link (https://www.linkedin.com/in/victor-g-sanchez/)
+- Itch.io Studio Portal: Link (https://xvacorx.itch.io/)
+- GitHub Repository Logs: Link (https://github.com/xvacorx)
 ```
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Victor%20G%20Sanchez-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/victor-g-sanchez/)
@@ -100,10 +107,10 @@ PING contact_info (127.0.0.1) 56(84) bytes of data.
 <br>
 
 <details open>
-<summary id="español"><b>📂 es-Español/intro.log</b></summary>
+<summary id="español"><b>📂 es-Español/game_mode.sav</b></summary>
 <br>
 
-## 📁 sysadmin@vik-desktop:~$ cat sobre_mi.md
+## 🎮 NIVEL 1: Estado del Perfil de Vik
 
 Soy un diseñador y desarrollador de videojuegos apasionado por crear experiencias inmersivas. Actualmente lidero mi proyecto indie unipersonal, **[Chroma Cat Studios](https://xvacorx.itch.io/)**, donde me enfoco en la teoría del diseño, iteración rápida y prototipado de mecánicas para proyectos como *[Toading Home](https://xvacorx.itch.io/toadinghome)*.
 
@@ -111,7 +118,7 @@ En mi faceta técnica, fusiono la lógica de programación con la administració
 
 ---
 
-## 🛠️ sysadmin@vik-desktop:~$ ./toolbox_tecnico_pro.sh
+## ⚔️ BITÁCORA DE MISIONES: Toolbox Técnico Pro
 
 Desarrollé una "navaja suiza" para la línea de comandos, blindada y compatible con múltiples versiones de Windows. Ideal para SysAdmins y técnicos de soporte, incluye mantenimiento automatizado, eliminación de bloatware y diagnósticos inteligentes.
 
@@ -127,20 +134,27 @@ irm tinyurl.com/VikToolBox | iex
 
 ---
 
-## ⚙️ sysadmin@vik-desktop:~$ get-habilidades --detallado
+## 🎒 INVENTARIO: Habilidades & Herramientas
 
-```json
-{
-  "desarrollo_videojuegos": ["Unity", "C#", "Diseño de Juegos"],
-  "it_e_infraestructura": ["Automatización con PowerShell", "Virtualización con Proxmox", "Raspberry Pi", "Diagnóstico de Hardware", "Redes"],
-  "gestion_de_proyectos": ["Obsidian", "Notion", "Trello", "Google Suite"],
-  "control_de_versiones": ["GitHub"]
-}
+```yaml
+Desarrollo de Videojuegos:
+  - Unity Engine
+  - Lenguaje C#
+  - Teoría de Diseño de Juegos
+IT y Sistemas:
+  - Automatización con PowerShell
+  - Virtualización con Proxmox
+  - Raspberry Pi Home Lab
+  - Diagnósticos & Redes
+Productividad y Organización:
+  - Obsidian (Wiki Personal)
+  - Notion & Trello
+  - GitHub (Control de Versiones)
 ```
 
 ---
 
-## 🌟 sysadmin@vik-desktop:~$ listar-proyectos --destacados
+## 🌟 RECOMPENSAS DE MISIÓN: Proyectos Destacados
 
 *   🎮 **[Toading Home](https://xvacorx.itch.io/toadinghome)** — Una aventura arcade para móviles sobre un sapito que intenta volver a casa (En desarrollo en Chroma Cat Studios).
 *   🚀 **[Neon Shooter](https://xvacorx.itch.io/neon-shooter)** — Un shooter frenético de estilo "bullet hell".
@@ -149,7 +163,7 @@ irm tinyurl.com/VikToolBox | iex
 
 ---
 
-## 🎲 sysadmin@vik-desktop:~$ cat hobbies.log
+## 🎲 MISIONES SECUNDARIAS: Hobbies e Intereses
 
 *   **Estéticas:** Cyberpunk, Synthwave, Solarpunk y Steampunk.
 *   **Juegos de Mesa:** Fanático de los juegos de mesa y de cartas.
@@ -157,13 +171,13 @@ irm tinyurl.com/VikToolBox | iex
 
 ---
 
-## 🔗 sysadmin@vik-desktop:~$ ping -c 4 contacto
+## 🔗 MODO COOPERATIVO: Contacto & Conectarse
 
 ```bash
-PING contacto (127.0.0.1) 56(84) bytes of data.
-64 bytes from linkedin: icmp_seq=1 ttl=64 time=0.04 ms (https://www.linkedin.com/in/victor-g-sanchez/)
-64 bytes from itch_io: icmp_seq=2 ttl=64 time=0.08 ms (https://xvacorx.itch.io/)
-64 bytes from github: icmp_seq=3 ttl=64 time=0.12 ms (https://github.com/xvacorx)
+- Conexión Discord: Activa (Asistente Claw Bot)
+- Red LinkedIn: Enlace (https://www.linkedin.com/in/victor-g-sanchez/)
+- Portal Itch.io: Enlace (https://xvacorx.itch.io/)
+- Registro de GitHub: Enlace (https://github.com/xvacorx)
 ```
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Victor%20G%20Sanchez-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/victor-g-sanchez/)
