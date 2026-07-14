@@ -1,0 +1,510 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="100%" height="100%">
+  <defs>
+    <!-- Fonts Import -->
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&amp;family=Inter:wght@300;400;500;600;700;800&amp;display=swap');
+      
+      svg {
+        background-color: #F8FAFC;
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      }
+      
+      .term-title {
+        font-family: 'Fira Code', monospace;
+        font-size: 13px;
+        fill: #64748B;
+      }
+      
+      .ascii-text {
+        font-family: 'Fira Code', monospace;
+        font-size: 13px;
+        fill: url(#ascii-grad);
+      }
+      
+      .cursor-blink {
+        animation: cursor-blink-anim 0.8s infinite;
+      }
+      
+      @keyframes cursor-blink-anim {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      
+      .pill {
+        transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), filter 0.3s ease;
+        transform-box: fill-box;
+        transform-origin: center;
+        cursor: pointer;
+      }
+      
+      .pill:hover {
+        transform: scale(1.06);
+        filter: drop-shadow(0 0 10px rgba(37, 99, 235, 0.35));
+      }
+      
+      .social-icon {
+        transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), filter 0.3s ease;
+        transform-box: fill-box;
+        transform-origin: center;
+        cursor: pointer;
+      }
+      
+      .social-icon:hover {
+        transform: scale(1.15);
+        filter: drop-shadow(0 0 12px rgba(37, 99, 235, 0.45));
+      }
+    </style>
+
+    <!-- Gradients -->
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="50%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+
+    <linearGradient id="ascii-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB">
+        <animate attributeName="stop-color" values="#2563EB; #06B6D4; #10B981; #2563EB" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#06B6D4">
+        <animate attributeName="stop-color" values="#06B6D4; #10B981; #2563EB; #06B6D4" dur="10s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="panel-shimmer" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(37, 99, 235, 0.08)" />
+      <stop offset="50%" stop-color="rgba(6, 182, 212, 0.3)" />
+      <stop offset="100%" stop-color="rgba(16, 185, 129, 0.08)" />
+      <animateTransform attributeName="gradientTransform" type="rotate" values="0 0.5 0.5; 360 0.5 0.5" dur="12s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <linearGradient id="glass-sheen-anim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="-100%" stop-color="white" stop-opacity="0" />
+      <stop offset="-50%" stop-color="white" stop-opacity="0.25" />
+      <stop offset="0%" stop-color="white" stop-opacity="0" />
+      <animate attributeName="x1" values="-100%; 200%" dur="8s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="0%; 300%" dur="8s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <linearGradient id="scanline-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(6, 182, 212, 0)" />
+      <stop offset="50%" stop-color="rgba(6, 182, 212, 0.15)" />
+      <stop offset="100%" stop-color="rgba(6, 182, 212, 0)" />
+    </linearGradient>
+
+    <!-- Background Glows -->
+    <radialGradient id="bg-glow-1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#2563EB" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="bg-glow-2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="bg-glow-3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Filters -->
+    <filter id="panel-blur">
+      <feGaussianBlur stdDeviation="15" />
+    </filter>
+    
+    <filter id="ascii-glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur">
+        <animate attributeName="stdDeviation" values="1.5;2.5;1.5" dur="5s" repeatCount="indefinite" />
+      </feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="noise" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="4" result="noise" />
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.02 0" />
+      <feComposite operator="in" in2="SourceGraphic" />
+    </filter>
+
+    <!-- Typing Clip Paths -->
+    <clipPath id="clip-prompt">
+      <rect x="70" y="105" width="0" height="20">
+        <animate attributeName="width" from="0" to="200" dur="0.8s" begin="0.1s" fill="freeze" />
+      </rect>
+    </clipPath>
+    
+    <clipPath id="clip-role-1">
+      <rect x="525" y="145" width="0" height="30">
+        <animate attributeName="width" values="0; 320; 320; 0; 0" keyTimes="0; 0.0625; 0.21875; 0.25; 1" dur="16s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="clip-role-2">
+      <rect x="525" y="145" width="0" height="30">
+        <animate attributeName="width" values="0; 0; 260; 260; 0; 0" keyTimes="0; 0.25; 0.3125; 0.46875; 0.5; 1" dur="16s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="clip-role-3">
+      <rect x="525" y="145" width="0" height="30">
+        <animate attributeName="width" values="0; 0; 250; 250; 0; 0" keyTimes="0; 0.5; 0.5625; 0.71875; 0.75; 1" dur="16s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="clip-role-4">
+      <rect x="525" y="145" width="0" height="30">
+        <animate attributeName="width" values="0; 0; 330; 330; 0; 0" keyTimes="0; 0.75; 0.8125; 0.96875; 1.0; 1.0" dur="16s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- Base Background -->
+  <rect width="1180" height="610" rx="24" fill="#F8FAFC" />
+
+  <!-- Background Animated Glows -->
+  <circle cx="200" cy="150" r="320" fill="url(#bg-glow-1)">
+    <animate attributeName="cx" values="200;280;150;200" dur="18s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="150;220;100;150" dur="18s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="950" cy="480" r="350" fill="url(#bg-glow-2)">
+    <animate attributeName="cx" values="950;870;980;950" dur="22s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="480;400;510;480" dur="22s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="600" cy="300" r="280" fill="url(#bg-glow-3)">
+    <animate attributeName="cx" values="600;550;650;600" dur="16s" repeatCount="indefinite" />
+    <animate attributeName="cy" values="300;350;260;300" dur="16s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Noise Overlay for Premium Texture -->
+  <rect width="1180" height="610" rx="24" filter="url(#noise)" pointer-events="none" />
+
+  <!-- Background Dust Particles -->
+  <g fill="#2563EB" opacity="0.15">
+    <circle cx="120" cy="520" r="1.5">
+      <animate attributeName="cy" values="520;460;520" dur="9s" repeatCount="indefinite" />
+      <animate attributeName="cx" values="120;140;120" dur="7s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="480" cy="100" r="1">
+      <animate attributeName="cy" values="100;160;100" dur="12s" repeatCount="indefinite" />
+      <animate attributeName="cx" values="480;460;480" dur="10s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="780" cy="540" r="1.5">
+      <animate attributeName="cy" values="540;490;540" dur="8s" repeatCount="indefinite" />
+      <animate attributeName="cx" values="780;810;780" dur="11s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1080" cy="180" r="2">
+      <animate attributeName="cy" values="180;110;180" dur="10s" repeatCount="indefinite" />
+      <animate attributeName="cx" values="1080;1050;1080" dur="8s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- ======================== LEFT SIDE: ASCII TERMINAL ======================== -->
+  <!-- Glassmorphism Blur Base -->
+  <rect x="40" y="40" width="420" height="530" rx="16" fill="#FFFFFF" fill-opacity="0.65" filter="url(#panel-blur)" />
+  <!-- Panel Shimmer Border -->
+  <rect x="40" y="40" width="420" height="530" rx="16" fill="none" stroke="url(#panel-shimmer)" stroke-width="1.8" />
+  
+  <!-- Terminal Header -->
+  <circle cx="65" cy="65" r="6" fill="#EF4444" />
+  <circle cx="85" cy="65" r="6" fill="#F59E0B" />
+  <circle cx="105" cy="65" r="6" fill="#10B981" />
+  <text x="250" y="70" text-anchor="middle" class="term-title">chroma-cat.sh</text>
+  <line x1="40" y1="85" x2="460" y2="85" stroke="rgba(15, 23, 42, 0.08)" stroke-width="1" />
+
+  <!-- Terminal Content Group (Boots Up) -->
+  <!-- Command prompt typing -->
+  <text x="70" y="120" font-family="'Fira Code', monospace" font-size="13" fill="#10B981" clip-path="url(#clip-prompt)">&gt; run chroma-cat.exe</text>
+  <rect class="cursor-blink" x="70" y="107" width="8" height="15" fill="#10B981">
+    <animate attributeName="x" from="70" to="235" dur="0.8s" begin="0.1s" fill="freeze" />
+    <animate attributeName="visibility" values="visible;hidden" begin="0.9s" fill="freeze" />
+  </rect>
+
+  <text x="70" y="145" font-family="'Fira Code', monospace" font-size="13" fill="#64748B" opacity="0">
+    Initializing...
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.0s" fill="freeze" />
+  </text>
+  <text x="70" y="170" font-family="'Fira Code', monospace" font-size="13" fill="#2563EB" opacity="0">
+    [OK] Core module loaded.
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.4s" fill="freeze" />
+  </text>
+
+  <!-- Floating ASCII Art Cat (Pulse Glow) -->
+  <g class="ascii-text" xml:space="preserve" filter="url(#ascii-glow)">
+    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="6s" repeatCount="indefinite" />
+    
+    <text x="70" y="210" opacity="0">      /\_/\<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.8s" fill="freeze" /></text>
+    <text x="70" y="230" opacity="0"> ____/ o o \____<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.9s" fill="freeze" /></text>
+    <text x="70" y="250" opacity="0">/~    \  V  /    ~\<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="2.0s" fill="freeze" /></text>
+    <text x="70" y="270" opacity="0">(   ===  ^  ===   )<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="2.1s" fill="freeze" /></text>
+    <text x="70" y="290" opacity="0"> \               /<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="2.2s" fill="freeze" /></text>
+    <text x="70" y="310" opacity="0">  \  C H R O M A /<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="2.3s" fill="freeze" /></text>
+    <text x="70" y="330" opacity="0">   \   C A T S  /<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="2.4s" fill="freeze" /></text>
+    <text x="70" y="350" opacity="0">    \__________/<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="2.5s" fill="freeze" /></text>
+  </g>
+
+  <!-- Left Terminal Specs -->
+  <g font-family="'Fira Code', monospace" font-size="12" fill="#475569" xml:space="preserve">
+    <text x="70" y="380" opacity="0">---------------------------------<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="2.6s" fill="freeze" /></text>
+    <text x="70" y="405" opacity="0"><tspan fill="#2563EB" font-weight="600">OS     </tspan> Proxmox VE 8.2<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="2.8s" fill="freeze" /></text>
+    <text x="70" y="430" opacity="0"><tspan fill="#06B6D4" font-weight="600">SHELL  </tspan> PowerShell Core 7.4<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="3.0s" fill="freeze" /></text>
+    <text x="70" y="455" opacity="0"><tspan fill="#10B981" font-weight="600">SYS    </tspan> ToolboxTecnicoPro<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="3.2s" fill="freeze" /></text>
+    <text x="70" y="480" opacity="0"><tspan fill="#EA580C" font-weight="600">AI     </tspan> Claw-Bot-v2 (Online)<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="3.4s" fill="freeze" /></text>
+    <text x="70" y="505" opacity="0"><tspan fill="#DB2777" font-weight="600">LOC    </tspan> Rosario, Argentina<animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="3.6s" fill="freeze" /></text>
+  </g>
+
+  <!-- Scanline Sweep Animation -->
+  <rect x="40" y="85" width="420" height="2" fill="url(#scanline-grad)" opacity="0.3">
+    <animate attributeName="y" values="85; 560; 85" dur="6.5s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Glass Sheen Reflection -->
+  <rect x="40" y="40" width="420" height="530" rx="16" fill="url(#glass-sheen-anim)" pointer-events="none" />
+
+
+  <!-- ======================== RIGHT SIDE: SYSADMIN / GAME DEV TERMINAL ======================== -->
+  <!-- Glassmorphism Blur Base -->
+  <rect x="490" y="40" width="650" height="530" rx="16" fill="#FFFFFF" fill-opacity="0.75" filter="url(#panel-blur)" />
+  <!-- Panel Shimmer Border -->
+  <rect x="490" y="40" width="650" height="530" rx="16" fill="none" stroke="url(#panel-shimmer)" stroke-width="1.8" />
+
+  <!-- Terminal Header -->
+  <circle cx="515" cy="65" r="6" fill="#EF4444" />
+  <circle cx="535" cy="65" r="6" fill="#F59E0B" />
+  <circle cx="555" cy="65" r="6" fill="#10B981" />
+  <text x="815" y="70" text-anchor="middle" class="term-title">sysadmin@vik-desktop:~</text>
+  
+  <!-- Right Badge (IT/DEV) -->
+  <rect x="1060" y="53" width="55" height="22" rx="6" fill="rgba(37, 99, 235, 0.06)" stroke="rgba(37, 99, 235, 0.2)" stroke-width="1" />
+  <text x="1087" y="68" text-anchor="middle" font-family="'Fira Code', monospace" font-size="11" font-weight="600" fill="#2563EB">IT_DEV</text>
+
+  <line x1="490" y1="85" x2="1140" y2="85" stroke="rgba(15, 23, 42, 0.08)" stroke-width="1" />
+
+  <!-- GREETING & TYPING ROLES -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.2s" fill="freeze" />
+    <text x="525" y="125" font-family="'Inter', sans-serif" font-size="26" font-weight="800" fill="url(#text-grad)">Hi 👋 I'm Vik!</text>
+  </g>
+
+  <!-- Cycling Typing Roles -->
+  <!-- Role 1: Game Developer & Designer -->
+  <text x="525" y="160" font-family="'Fira Code', monospace" font-size="17" font-weight="600" fill="#2563EB" clip-path="url(#clip-role-1)">Game Developer &amp; Designer</text>
+  <rect class="cursor-blink" x="805" y="144" width="8" height="18" fill="#2563EB" visibility="visible">
+    <animate attributeName="visibility" values="visible; hidden; hidden" keyTimes="0; 0.25; 1" dur="16s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Role 2: Field Support Analyst -->
+  <text x="525" y="160" font-family="'Fira Code', monospace" font-size="17" font-weight="600" fill="#06B6D4" clip-path="url(#clip-role-2)">Field Support Analyst</text>
+  <rect class="cursor-blink" x="755" y="144" width="8" height="18" fill="#06B6D4" visibility="hidden">
+    <animate attributeName="visibility" values="hidden; visible; hidden; hidden" keyTimes="0; 0.25; 0.5; 1" dur="16s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Role 3: PowerShell Automator -->
+  <text x="525" y="160" font-family="'Fira Code', monospace" font-size="17" font-weight="600" fill="#10B981" clip-path="url(#clip-role-3)">PowerShell Automator</text>
+  <rect class="cursor-blink" x="745" y="144" width="8" height="18" fill="#10B981" visibility="hidden">
+    <animate attributeName="visibility" values="hidden; hidden; visible; hidden; hidden" keyTimes="0; 0.5; 0.5; 0.75; 1" dur="16s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Role 4: Chroma Cat Studios Founder -->
+  <text x="525" y="160" font-family="'Fira Code', monospace" font-size="17" font-weight="600" fill="#e11d48" clip-path="url(#clip-role-4)">Chroma Cat Studios Founder</text>
+  <rect class="cursor-blink" x="825" y="144" width="8" height="18" fill="#e11d48" visibility="hidden">
+    <animate attributeName="visibility" values="hidden; hidden; visible; visible" keyTimes="0; 0.75; 0.75; 1" dur="16s" repeatCount="indefinite" />
+  </rect>
+
+  <line x1="525" y1="185" x2="1105" y2="185" stroke="rgba(15, 23, 42, 0.05)" stroke-width="1" />
+
+  <!-- DETAIL ITEMS (2 COLUMN GRID) -->
+  <!-- Column 1 -->
+  <!-- Row 1: Location -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.4s" fill="freeze" />
+    <g transform="translate(525, 203) scale(0.75)" fill="#2563EB">
+      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+    </g>
+    <text x="550" y="217" font-family="'Inter', sans-serif" font-size="13.5">
+      <tspan fill="#475569">Location: </tspan>
+      <tspan fill="#0F172A" font-weight="600">Rosario, Argentina</tspan>
+    </text>
+  </g>
+
+  <!-- Row 2: Studio -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.6s" fill="freeze" />
+    <g transform="translate(525, 243) scale(0.75)" fill="#6366F1">
+      <path d="M21 6H3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-10 7H8v3H6v-3H3v-2h3V8h2v3h3v2zm4.5 3c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm3-3c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z" />
+    </g>
+    <text x="550" y="257" font-family="'Inter', sans-serif" font-size="13.5">
+      <tspan fill="#475569">Studio: </tspan>
+      <tspan fill="#0F172A" font-weight="600">Chroma Cat Studios</tspan>
+    </text>
+  </g>
+
+  <!-- Row 3: Focus -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.8s" fill="freeze" />
+    <g transform="translate(525, 283) scale(0.75)" fill="#10B981">
+      <path d="M12 2s-3 3-3 8c0 1.94.88 3.5 2 4.47V20l1 1 1-1v-5.53c1.12-.97 2-2.53 2-4.47 0-5-3-8-3-8zm0 8.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z" />
+    </g>
+    <text x="550" y="297" font-family="'Inter', sans-serif" font-size="13.5">
+      <tspan fill="#475569">Current Focus: </tspan>
+      <tspan fill="#0F172A" font-weight="600">Toading Home 🐸</tspan>
+    </text>
+  </g>
+
+  <!-- Column 2 -->
+  <!-- Row 1: Toolbox -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.5s" fill="freeze" />
+    <g transform="translate(835, 203) scale(0.75)" fill="#D97706">
+      <path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.3C.5 6.7.9 9.8 2.9 11.8c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.1z" />
+    </g>
+    <text x="860" y="217" font-family="'Inter', sans-serif" font-size="13.5">
+      <tspan fill="#475569">Toolbox: </tspan>
+      <tspan fill="#0F172A" font-weight="600">Toolbox Técnico Pro</tspan>
+    </text>
+  </g>
+
+  <!-- Row 2: Home Lab -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.7s" fill="freeze" />
+    <g transform="translate(835, 243) scale(0.75)" fill="#0284C7">
+      <path d="M20 18H4v-3h16v3zm0-5H4V8h16v5zm0-7H4V3h16v3zM5 4v1h1V4H5zm0 5v1h1V9H5zm0 5v1h1v-1H5z" />
+    </g>
+    <text x="860" y="257" font-family="'Inter', sans-serif" font-size="13.5">
+      <tspan fill="#475569">Home Lab: </tspan>
+      <tspan fill="#0F172A" font-weight="600">Proxmox &amp; RPi</tspan>
+    </text>
+  </g>
+
+  <!-- Row 3: Admin Automation -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.9s" fill="freeze" />
+    <g transform="translate(835, 283) scale(0.75)" fill="#4F46E5">
+      <path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z" />
+    </g>
+    <text x="860" y="297" font-family="'Inter', sans-serif" font-size="13.5">
+      <tspan fill="#475569">Automation: </tspan>
+      <tspan fill="#0F172A" font-weight="600">PowerShell</tspan>
+    </text>
+  </g>
+
+  <!-- CORE SKILLS SECTOR -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.1s" fill="freeze" />
+    <text x="525" y="360" font-family="'Fira Code', monospace" font-size="12" font-weight="600" fill="#06B6D4">// CORE SKILLS &amp; TOOLS</text>
+  </g>
+
+  <!-- Skills Row 1 -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.3s" fill="freeze" />
+    <!-- Unity -->
+    <g class="pill" transform="translate(525, 375)">
+      <rect width="68" height="28" rx="8" fill="rgba(241, 245, 249, 0.65)" stroke="rgba(15, 23, 42, 0.08)" stroke-width="1.2" />
+      <text x="34" y="18" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#0F172A">Unity</text>
+    </g>
+    <!-- C# -->
+    <g class="pill" transform="translate(601, 375)">
+      <rect width="48" height="28" rx="8" fill="rgba(241, 245, 249, 0.65)" stroke="rgba(15, 23, 42, 0.08)" stroke-width="1.2" />
+      <text x="24" y="18" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#0F172A">C#</text>
+    </g>
+    <!-- PowerShell -->
+    <g class="pill" transform="translate(657, 375)">
+      <rect width="102" height="28" rx="8" fill="rgba(241, 245, 249, 0.65)" stroke="rgba(15, 23, 42, 0.08)" stroke-width="1.2" />
+      <text x="51" y="18" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#0F172A">PowerShell</text>
+    </g>
+    <!-- Proxmox -->
+    <g class="pill" transform="translate(767, 375)">
+      <rect width="80" height="28" rx="8" fill="rgba(241, 245, 249, 0.65)" stroke="rgba(15, 23, 42, 0.08)" stroke-width="1.2" />
+      <text x="40" y="18" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#0F172A">Proxmox</text>
+    </g>
+    <!-- Raspberry Pi -->
+    <g class="pill" transform="translate(855, 375)">
+      <rect width="105" height="28" rx="8" fill="rgba(241, 245, 249, 0.65)" stroke="rgba(15, 23, 42, 0.08)" stroke-width="1.2" />
+      <text x="52.5" y="18" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#0F172A">Raspberry Pi</text>
+    </g>
+    <!-- Game Design -->
+    <g class="pill" transform="translate(968, 375)">
+      <rect width="105" height="28" rx="8" fill="rgba(241, 245, 249, 0.65)" stroke="rgba(15, 23, 42, 0.08)" stroke-width="1.2" />
+      <text x="52.5" y="18" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#0F172A">Game Design</text>
+    </g>
+  </g>
+
+  <!-- Skills Row 2 -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.5s" fill="freeze" />
+    <!-- Obsidian -->
+    <g class="pill" transform="translate(525, 413)">
+      <rect width="82" height="28" rx="8" fill="rgba(241, 245, 249, 0.65)" stroke="rgba(15, 23, 42, 0.08)" stroke-width="1.2" />
+      <text x="41" y="18" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#0F172A">Obsidian</text>
+    </g>
+    <!-- Notion -->
+    <g class="pill" transform="translate(615, 413)">
+      <rect width="68" height="28" rx="8" fill="rgba(241, 245, 249, 0.65)" stroke="rgba(15, 23, 42, 0.08)" stroke-width="1.2" />
+      <text x="34" y="18" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#0F172A">Notion</text>
+    </g>
+    <!-- Trello -->
+    <g class="pill" transform="translate(691, 413)">
+      <rect width="65" height="28" rx="8" fill="rgba(241, 245, 249, 0.65)" stroke="rgba(15, 23, 42, 0.08)" stroke-width="1.2" />
+      <text x="32.5" y="18" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#0F172A">Trello</text>
+    </g>
+    <!-- GitHub -->
+    <g class="pill" transform="translate(764, 413)">
+      <rect width="72" height="28" rx="8" fill="rgba(241, 245, 249, 0.65)" stroke="rgba(15, 23, 42, 0.08)" stroke-width="1.2" />
+      <text x="36" y="18" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#0F172A">GitHub</text>
+    </g>
+    <!-- SysAdmin -->
+    <g class="pill" transform="translate(844, 413)">
+      <rect width="84" height="28" rx="8" fill="rgba(241, 245, 249, 0.65)" stroke="rgba(15, 23, 42, 0.08)" stroke-width="1.2" />
+      <text x="42" y="18" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#0F172A">SysAdmin</text>
+    </g>
+    <!-- Hardware Diagnostics -->
+    <g class="pill" transform="translate(936, 413)">
+      <rect width="138" height="28" rx="8" fill="rgba(241, 245, 249, 0.65)" stroke="rgba(15, 23, 42, 0.08)" stroke-width="1.2" />
+      <text x="69" y="18" text-anchor="middle" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#0F172A">IT Support &amp; Nets</text>
+    </g>
+  </g>
+
+  <!-- CONNECT SECTOR -->
+  <line x1="525" y1="465" x2="1105" y2="465" stroke="rgba(15, 23, 42, 0.05)" stroke-width="1" />
+
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.7s" fill="freeze" />
+    <text x="525" y="495" font-family="'Fira Code', monospace" font-size="12" font-weight="600" fill="#64748B">// CONNECT WITH ME:</text>
+  </g>
+
+  <!-- Social Icons -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.9s" fill="freeze" />
+    
+    <!-- GitHub -->
+    <a href="https://github.com/xvacorx" target="_blank">
+      <g class="social-icon" transform="translate(680, 480)">
+        <circle cx="16" cy="16" r="16" fill="rgba(241, 245, 249, 0.65)" stroke="rgba(15, 23, 42, 0.08)" stroke-width="1" />
+        <path transform="translate(6, 6) scale(0.83)" fill="#0F172A" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.579.688.481C19.137 20.164 22 16.418 22 12c0-5.523-4.477-10-10-10z"/>
+      </g>
+    </a>
+
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/victor-g-sanchez/" target="_blank">
+      <g class="social-icon" transform="translate(725, 480)">
+        <circle cx="16" cy="16" r="16" fill="rgba(241, 245, 249, 0.65)" stroke="rgba(15, 23, 42, 0.08)" stroke-width="1" />
+        <path transform="translate(7, 7) scale(0.75)" fill="#0077B5" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+      </g>
+    </a>
+
+    <!-- Itch.io -->
+    <a href="https://xvacorx.itch.io/" target="_blank">
+      <g class="social-icon" transform="translate(770, 480)">
+        <circle cx="16" cy="16" r="16" fill="rgba(241, 245, 249, 0.65)" stroke="rgba(15, 23, 42, 0.08)" stroke-width="1" />
+        <!-- Gamepad icon representation -->
+        <path transform="translate(6, 6) scale(0.83)" fill="#FA5C5C" d="M21 6H3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-10 7H8v3H6v-3H3v-2h3V8h2v3h3v2zm4.5 3c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm3-3c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>
+      </g>
+    </a>
+  </g>
+
+  <!-- Glass Sheen Reflection -->
+  <rect x="490" y="40" width="650" height="530" rx="16" fill="url(#glass-sheen-anim)" pointer-events="none" />
+
+</svg>
