@@ -32,7 +32,7 @@
 
 I am a game designer and systems developer passionate about crafting responsive, immersive gameplay experiences. I lead my independent studio, **[Chroma Cat Studios](https://xvacorx.itch.io/)**, as Director / CEO & Lead Game Designer, focusing on casual puzzle loops, tactile Touch UX, and data-informed level design for titles like *[Toading Home](https://play.google.com/store/apps/details?id=com.ChromaCatStudios.ToadingHome)* (now live on the Google Play Store).
 
-In parallel, I explore Local-First web utilities and digital tools at **[VikLabs](https://viklabs.pages.dev/)**. By day, I combine programming logic with infrastructure engineering: managing virtualized environments on Proxmox, designing Zero-Trust Mesh VPNs, building PowerShell automation suites, and collaborating with my custom AI partner **Jarvis** for rapid prototyping.
+In parallel, I explore Local-First web utilities and digital tools at **[VikLabs](https://viklabs.dev/)**. By day, I combine programming logic with infrastructure engineering: managing virtualized environments on Proxmox, designing Zero-Trust Mesh VPNs, building PowerShell automation suites, and collaborating with my custom AI partner **Jarvis** for rapid prototyping.
 
 ---
 
@@ -44,7 +44,7 @@ Run it directly from an elevated PowerShell terminal:
 
 ```powershell
 # Run the toolbox utility belt
-irm tinyurl.com/VikToolBox | iex
+irm toolbox.viklabs.dev | iex
 ```
 
 * 📦 **Offline Executable**: [Download Toolbox.exe](https://downgit.github.io/#/home?url=https://github.com/xvacorx/BATman/blob/main/Toolbox/Toolbox.exe)
@@ -81,7 +81,7 @@ Productivity & Org:
 *   🫧 **[Bubble Blowdown](https://marioldd.itch.io/bubbleblowdown)** — Competitive 2-player local arcade duel made for Global Game Jam 2025. Platform-ejection brawler featuring a strategic air/stamina resource bar.
 *   🚀 **[Neon Shooter](https://xvacorx.itch.io/neon-shooter)** — Retro arcade top-down bullet hell shooter where 100% of game assets (player, enemies, bullets, power-ups) were crafted repurposing flat UI vector icons.
 *   🎲 **[DiceMentions](https://xvacorx.itch.io/dicementions)** — Fast-paced top-down action shooter (Hotline Miami style) for Game Lab Rosario. Rolling dice dynamically dictates your weapon, enemy wave, and boss encounter.
-*   🌐 **[VikLabs](https://viklabs.pages.dev/)** — Personal digital laboratory of Local-First web utilities (Instagram Cleaner via IndexedDB, interactive NetBird Mesh VPN simulator, theme inspector).
+*   🌐 **[VikLabs](https://viklabs.dev/)** — Personal digital laboratory of Local-First web utilities (Instagram Cleaner via IndexedDB, interactive NetBird Mesh VPN simulator, theme inspector).
 
 ---
 
@@ -98,14 +98,14 @@ Productivity & Org:
 
 ```bash
 - Google Play Store: Link (https://play.google.com/store/apps/details?id=com.ChromaCatStudios.ToadingHome)
-- VikLabs Digital Lab: Link (https://viklabs.pages.dev/)
+- VikLabs Digital Lab: Link (https://viklabs.dev/)
 - LinkedIn Network: Link (https://www.linkedin.com/in/victor-g-sanchez/)
 - Itch.io Studio Portal: Link (https://xvacorx.itch.io/)
 - GitHub Repository Logs: Link (https://github.com/xvacorx)
 ```
 
 [![Google Play](https://img.shields.io/badge/Google_Play-Toading_Home-34A853?style=for-the-badge&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=com.ChromaCatStudios.ToadingHome)
-[![VikLabs](https://img.shields.io/badge/VikLabs-Portfolio-9333EA?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://viklabs.pages.dev/)
+[![VikLabs](https://img.shields.io/badge/VikLabs-Portfolio-9333EA?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://viklabs.dev/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Victor%20G%20Sanchez-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/victor-g-sanchez/)
 [![Itch.io](https://img.shields.io/badge/Itch.io-xvacorx-red?style=for-the-badge&logo=itchdotio)](https://xvacorx.itch.io/)
 [![GitHub](https://img.shields.io/badge/GitHub-xvacorx-black?style=for-the-badge&logo=github)](https://github.com/xvacorx)
@@ -122,7 +122,7 @@ Productivity & Org:
 
 Soy un diseñador y desarrollador de videojuegos apasionado por crear experiencias inmersivas y responsivas. Lidero mi estudio independiente, **[Chroma Cat Studios](https://xvacorx.itch.io/)**, como Director / CEO & Lead Game Designer, enfocándome en loops de puzzle casual, Touch UX táctil y diseño de niveles basado en métricas para títulos como *[Toading Home](https://play.google.com/store/apps/details?id=com.ChromaCatStudios.ToadingHome)* (publicado en Google Play Store).
 
-En paralelo, desarrollo utilidades web Local-First y herramientas digitales en **[VikLabs](https://viklabs.pages.dev/)**. En mi faceta técnica, fusiono la lógica de programación con la ingeniería de infraestructura: gestionando entornos virtualizados en Proxmox, diseñando redes Mesh VPN Zero-Trust, suites de automatización en PowerShell y colaborando con mi compañero de IA personalizado **Jarvis** para prototipado rápido.
+En paralelo, desarrollo utilidades web Local-First y herramientas digitales en **[VikLabs](https://viklabs.dev/)**. En mi faceta técnica, fusiono la lógica de programación con la ingeniería de infraestructura: gestionando entornos virtualizados en Proxmox, diseñando redes Mesh VPN Zero-Trust, suites de automatización en PowerShell y colaborando con mi compañero de IA personalizado **Jarvis** para prototipado rápido.
 
 ---
 
@@ -134,7 +134,7 @@ Ejecútala directamente desde una terminal de PowerShell con privilegios elevado
 
 ```powershell
 # Ejecutar caja de herramientas
-irm tinyurl.com/VikToolBox | iex
+irm toolbox.viklabs.dev | iex
 ```
 
 * 📦 **Ejecutable Portable**: [Descargar Toolbox.exe](https://downgit.github.io/#/home?url=https://github.com/xvacorx/BATman/blob/main/Toolbox/Toolbox.exe)
@@ -171,7 +171,7 @@ Productividad y Organización:
 *   🫧 **[Bubble Blowdown](https://marioldd.itch.io/bubbleblowdown)** — Duelo arcade competitivo local para 2 jugadores creado para Global Game Jam 2025. Brawler de empuje fuera de plataforma con barra estratégica de aire/estamina.
 *   🚀 **[Neon Shooter](https://xvacorx.itch.io/neon-shooter)** — Bullet-hell arcade retro donde el 100% de los elementos visuales (jugador, enemigos, proyectiles, mejoras) fueron diseñados reutilizando iconos vectoriales planos de UI.
 *   🎲 **[DiceMentions](https://xvacorx.itch.io/dicementions)** — Action shooter frenético de vista aérea (estilo Hotline Miami) creado para Game Lab Rosario. La tirada de dados determina dinámicamente tu arma, la oleada de enemigos y el jefe final.
-*   🌐 **[VikLabs](https://viklabs.pages.dev/)** — Laboratorio digital personal de utilidades web Local-First (Limpiador de exportaciones de Instagram vía IndexedDB, simulador interactivo de Mesh VPN NetBird, inspector de temas).
+*   🌐 **[VikLabs](https://viklabs.dev/)** — Laboratorio digital personal de utilidades web Local-First (Limpiador de exportaciones de Instagram vía IndexedDB, simulador interactivo de Mesh VPN NetBird, inspector de temas).
 
 ---
 
@@ -188,14 +188,14 @@ Productividad y Organización:
 
 ```bash
 - Google Play Store: Enlace (https://play.google.com/store/apps/details?id=com.ChromaCatStudios.ToadingHome)
-- VikLabs Laboratorio Digital: Enlace (https://viklabs.pages.dev/)
+- VikLabs Laboratorio Digital: Enlace (https://viklabs.dev/)
 - Red LinkedIn: Enlace (https://www.linkedin.com/in/victor-g-sanchez/)
 - Portal Itch.io: Enlace (https://xvacorx.itch.io/)
 - Registro de GitHub: Enlace (https://github.com/xvacorx)
 ```
 
 [![Google Play](https://img.shields.io/badge/Google_Play-Toading_Home-34A853?style=for-the-badge&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=com.ChromaCatStudios.ToadingHome)
-[![VikLabs](https://img.shields.io/badge/VikLabs-Portfolio-9333EA?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://viklabs.pages.dev/)
+[![VikLabs](https://img.shields.io/badge/VikLabs-Portfolio-9333EA?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://viklabs.dev/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Victor%20G%20Sanchez-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/victor-g-sanchez/)
 [![Itch.io](https://img.shields.io/badge/Itch.io-xvacorx-red?style=for-the-badge&logo=itchdotio)](https://xvacorx.itch.io/)
 [![GitHub](https://img.shields.io/badge/GitHub-xvacorx-black?style=for-the-badge&logo=github)](https://github.com/xvacorx)
